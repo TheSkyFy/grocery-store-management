@@ -144,9 +144,9 @@ def bill():
     #print(f'Your total amount is Rs.{total_amt}')
     print("\n------------------------------------------")
     print('\n              FERGO STORE               \n')
-    print(f'Your total amount is Rs.{total_amt}\n')
     print("Items\n")
     shop_cart()
+    print(f'Your total amount is Rs.{total_amt}\n')
     print("\nThank you for shopping from FERGO STORE")
     print("\n------------------------------------------")
 
