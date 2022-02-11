@@ -145,6 +145,7 @@ def bill():
     print("\n------------------------------------------")
     print('\n              FERGO STORE               \n')
     print(f'Your total amount is Rs.{total_amt}\n')
+    print("Items\n")
     shop_cart()
     print("\nThank you for shopping from FERGO STORE")
     print("\n------------------------------------------")
@@ -155,6 +156,7 @@ def place_order():
     opt = input("Do you want to place order, Y/N\n>")
     if opt == 'Y' or opt == 'y':
         shop_cart()
+        print()
         deli_date()
     
     else:
